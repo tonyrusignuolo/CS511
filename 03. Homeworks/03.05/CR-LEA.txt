@@ -1,0 +1,37 @@
+MSC : 3
+MSC : 1
+MSC : 5
+MSC : 2
+MSC : 4
+MSC 5: LEADER
+I am node 1 and I know the leader is node 5
+I am node 2 and I know the leader is node 5
+I am node 3 and I know the leader is node 5
+I am node 4 and I know the leader is node 56 processes created
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+Full statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+State-vector 184 byte, depth reached 101, ••• errors: 0 •••
+     7476 states, stored
+      115 states, matched
+     7591 transitions (= stored+matched)
+     2572 atomic steps
+hash conflicts:         0 (resolved)
+Stats on memory usage (in Megabytes):
+    1.397	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.323	actual memory usage for states (compression: 94.64%)
+         	state-vector as stored = 173 byte + 12 byte overhead
+   64.000	memory used for hash table (-w24)
+    0.069	memory used for DFS stack (-m2000)
+   65.367	total actual memory usage
+unreached in proctype nnode
+	CR-LEA.pml:41, state 19, "printf('\nI am node %d and I am the leader',mynumber)"
+	(1 of 27 states)
+unreached in init
+	(0 of 34 states)
+pan: elapsed time 0.01 seconds

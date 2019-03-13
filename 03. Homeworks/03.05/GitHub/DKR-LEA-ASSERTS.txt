@@ -1,0 +1,39 @@
+MSC : 2
+MSC : 3
+MSC : 4
+MSC : 1
+MSC : 5
+MSC : LOST
+MSC : LOST
+MSC : LOST
+MSC : LEADER
+MSC : LOST
+6 processes created
+
+
+(Spin Version 6.4.7 -- 19 August 2017)
+	+ Partial Order Reduction
+Full statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+State-vector 228 byte, depth reached 157, ••• errors: 0 •••
+    14122 states, stored
+      119 states, matched
+    14241 transitions (= stored+matched)
+     2572 atomic steps
+hash conflicts:         0 (resolved)
+Stats on memory usage (in Megabytes):
+    3.448	equivalent memory usage for states (stored*(State-vector + overhead))
+    2.923	actual memory usage for states (compression: 84.77%)
+         	state-vector as stored = 189 byte + 28 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.107	memory used for DFS stack (-m2000)
+  130.939	total actual memory usage
+unreached in proctype nnode
+	(0 of 50 states)
+unreached in init
+	(0 of 33 states)
+pan: elapsed time 0.02 seconds
+pan: rate    706100 states/second
