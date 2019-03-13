@@ -1,6 +1,6 @@
 CS 511 B Intro to Concurrent Programming
 Professor Bonelli
-Spring 2019
+Fall 2018
 Stevens Institute of Technology
 
 To whom it may concern:
